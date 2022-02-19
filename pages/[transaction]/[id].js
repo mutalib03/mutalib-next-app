@@ -75,7 +75,7 @@ return {
   
   return ( 
   <>
-     <Header user={userDetail}/>
+     <Header users={userDetail}/>
 
 
 

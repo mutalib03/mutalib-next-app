@@ -26,7 +26,7 @@ const Transaction = ({uniqueUser}) => {
     const {Transactions, email, id} =uniqueUser
 return(
    <>
-   <Header user={uniqueUser}/>
+   <Header users={uniqueUser}/>
   
    <div className="
    w-full
