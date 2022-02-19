@@ -3,8 +3,8 @@ import { PrismaClient } from "@prisma/client";
 import Link from "next/link";
 
 
-const Header  = ({user}) => {
- const {USD, EUR, NGN} = user
+const Header  = ({users}) => {
+ const {USD, EUR, NGN} = users
    
   return (
    <div>
