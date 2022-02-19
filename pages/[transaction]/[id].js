@@ -139,7 +139,7 @@ return {
         <option value="EUR">EUR</option>
     </select>  
 
-     <select onChange={e => setTarget(e.target.value)} required class="form-select appearance-none
+     <select onChange={e => setTarget(e.target.value)} required className="form-select appearance-none
       mt-10
      block
       w-full
