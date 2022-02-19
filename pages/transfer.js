@@ -65,7 +65,7 @@ return {
   
     <form  onSubmit={handleSubmit} className="w-1/2 m-auto bg-[#5CDB95] p-8" >
   
-     <select required onChange={(e) =>setTo(e.target.value)} class="form-select appearance-none
+     <select required onChange={(e) =>setTo(e.target.value)} className="form-select appearance-none
        mb-10
       block
       w-full
@@ -97,7 +97,7 @@ return {
    null
  }
 
-    <select  onChange={(e) => setSource(e.target.value) } required class="form-select appearance-none
+    <select  onChange={(e) => setSource(e.target.value) } required className="form-select appearance-none
       block
       w-full
        h-12
@@ -119,7 +119,7 @@ return {
         <option value="EUR">EUR</option>
     </select>  
 
-     <select onChange={e => setTarget(e.target.value)} required class="form-select appearance-none
+     <select onChange={e => setTarget(e.target.value)} required className="form-select appearance-none
       mt-10
      block
       w-full
@@ -146,7 +146,7 @@ return {
      required
      onChange={e => setValue(e.target.value)}
      type="number"
-      class="
+      className="
         form-control
          mt-10
         block
@@ -176,7 +176,7 @@ return {
    null
  }
 
-     <button type="submit" class="
+     <button type="submit" className="
       w-full
       mt-10
       px-6

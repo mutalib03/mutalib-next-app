@@ -20,9 +20,8 @@ export const getServerSideProps = async({params}) => {
   }
 }
 
-const transaction = ({uniqueUser}) => {
+const Transaction = ({uniqueUser}) => {
   
-  console.log(uniqueUser)
     const router = useRouter()
     const {Transactions, email, id} =uniqueUser
 return(
@@ -134,4 +133,4 @@ Transactions.map(transact =>
 
 
 
-export default transaction;
+export default Transaction;
