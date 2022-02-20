@@ -1,3 +1,4 @@
+
 import { useContext, useState } from "react";
 import { PrismaClient } from "@prisma/client";
 import { LoginContext } from "../_app";
@@ -21,10 +22,13 @@ export const getServerSideProps = async({params}) => {
 }
 
 const Transaction = ({uniqueUser}) => {
-  
+  console.log(uniqueUser)
     const router = useRouter()
     const {Transactions, email, id} =uniqueUser
-return(
+  
+    console.log(uniqueUser)
+
+    return(
    <>
    <Header users={uniqueUser}/>
   
@@ -89,6 +93,8 @@ mb-[10px]
   </div>
 
  {
+  
+   
 Transactions.map(transact => 
   <div key={transact.id} 
     className="

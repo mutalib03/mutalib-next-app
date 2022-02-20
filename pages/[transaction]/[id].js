@@ -30,7 +30,7 @@ return {
   const [boolean, setBoolean] = useState(true)
   const router = useRouter()
   
-  
+    console.log(userDetail)
   let  exchangeRates = ExchangeRate(source, target)
   let amount = value * exchangeRates
 

@@ -31,4 +31,3 @@ return exchangeRate
 
 export default ExchangeRate
 
-
